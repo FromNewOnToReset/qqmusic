@@ -88,7 +88,7 @@ url_ape = "http://183.222.96.19/amobile.music.tc.qq.com/A000"+songmid+".ape?guid
 url_flac = "http://183.222.96.19/amobile.music.tc.qq.com/F000"+songmid+".flac?guid=552068528&vkey="+vkey+"&uin=0&fromtag=91&.flac"
 url_m4a = "http://dl.stream.qqmusic.qq.com/C400"+songmid+".m4a?guid=552068528&vkey="+vkey+"&uin=0&fromtag=66"
 
-# 获取mp3和mpe
+# 获取mp3  以前的获取key的方式 这次在浏览器上没找到这个链接 但是发现还是能用
 get_temp_url = 'https://c.y.qq.com/base/fcgi-bin/fcg_music_express_mobile3.fcg?'
 temp_form = {
     "g_tk": "191874193",
